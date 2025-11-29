@@ -1,5 +1,4 @@
 
-```python
 # speed_skating_bot_final.py
 import asyncio
 import random
@@ -8,7 +7,7 @@ from aiogram.filters import CommandStart
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.fsm.storage.memory import MemoryStorage
 
-BOT_TOKEN = "YOUR_TOKEN_HERE"  # ← вставь свой токен
+BOT_TOKEN = "8195091477:AAEg2KaCHZsBaFfLHTedOp2NFycU6z_4nEw"
 
 bot = Bot(token=BOT_TOKEN, parse_mode="HTML")
 storage = MemoryStorage()
@@ -146,4 +145,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-```
+    
